@@ -1,0 +1,35 @@
+{
+  "name": "belajar-typescript-dasar",
+  "version": "1.0.0",
+  "description": "Belajar TS Dasar",
+  "homepage": "https://github.com/Nabielz1/belajar-typescript-dasar#readme",
+  "bugs": {
+    "url": "https://github.com/Nabielz1/belajar-typescript-dasar/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabielz1/belajar-typescript-dasar.git"
+  },
+  "license": "ISC",
+  "author": "Rifqi Nabil Akbar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.0.3",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.2",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
