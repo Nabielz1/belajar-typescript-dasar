@@ -110,4 +110,24 @@ describe('interface', function(){
         const person2: Person = person as Person;
         console.info(person2)
     });
+
+    it('should support type assertions', function(){
+        const person: any = {
+            name: "ripkong",
+            age: "25"
+        };
+
+        const person2: Person = person as Person;
+        console.info(person2)
+    });
+    
+    it('should support type assertions', function(){
+        const person: any = {
+            name: "ripkong",
+            age: "25"
+        };
+
+        const person2: Person = person as Person;
+        console.info(person2)
+    });
 });
